@@ -1,7 +1,7 @@
-const path = require('path'); //isso aqui é um path module, dá pra usar outros modules do node e npm. Pesquisar mais sobre isso
+const path = require('path'); 
 const os = require('os');
 const fs = require('fs');
-const { app, BrowserWindow, Menu, ipcMain, shell } = require('electron'); //toda vez que abrir o programa a gente vai instanciar um browserWindow
+const { app, BrowserWindow, Menu, ipcMain, shell } = require('electron'); 
 const ResizeImg = require('resize-img');
 const isMac = process.platform === 'darwin';
 const isDev = process.env.NODE_ENV !== 'production';

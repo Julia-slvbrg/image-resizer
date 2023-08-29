@@ -92,5 +92,5 @@ function alertSuccess(message) {
 };
 
 
-img.addEventListener('change', loadImage); //for whem we load the image
+img.addEventListener('change', loadImage); 
 form.addEventListener('submit', sendImage);
